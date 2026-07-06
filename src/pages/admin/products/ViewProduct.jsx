@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios, { API_BASE_URL } from "../../../utils/axiosconfig";
 import {
   ArrowLeft,
-  Tag,
   DollarSign,
   Percent,
   Image as ImageIcon,
@@ -12,7 +11,6 @@ import {
   Truck,
   RotateCcw,
   Boxes,
-  HelpCircle,
   Hash,
 } from "lucide-react";
 

@@ -234,7 +234,7 @@ const Tech3DCanvas = () => {
         ctx.font = `${Math.round(10 * lbl.scale)}px sans-serif`;
         const textWidth = ctx.measureText(lbl.text).width;
         const paddingX = 8;
-        const paddingY = 4;
+
         const rectW = textWidth + paddingX * 2;
         const rectH = 16 * lbl.scale;
 

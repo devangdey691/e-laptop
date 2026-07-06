@@ -4,6 +4,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Save, Loader2, ArrowLeft, LayoutGrid } from "lucide-react";
 import toast from "react-hot-toast";
 
+const API_URL = `/category`;
+
 const EditCategory = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -15,8 +17,6 @@ const EditCategory = () => {
     description: "",
     isActive: true,
   });
-
-  const API_URL = `/category`;
 
   useEffect(() => {
     const fetchCategory = async () => {
