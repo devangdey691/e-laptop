@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "../../utils/axiosconfig";
+import axios from "../../../utils/axiosconfig";
 import toast from "react-hot-toast";
 import {
   Mail,
