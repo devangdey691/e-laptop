@@ -80,7 +80,7 @@ const Home = () => {
               <Sparkles size={12} className="animate-pulse" /> New Season Arrivals
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] animate-fade-in-left delay-200">
-              Next-Gen Techi <br />
+              Next-Gen Tech <br />
               <span className="bg-gradient-to-r from-indigo-400 via-sky-400 to-emerald-400 bg-clip-text text-transparent">
                 For Your Smart Living
               </span>
